@@ -30,5 +30,11 @@ Neste documento, exploramos como preparar um ambiente de desenvolvimento robusto
 
 ---
 
+### 3. Inicialização e Configuração do dbt
+Após configurar o banco de dados e o ambiente, o próximo passo é criar e conectar o seu projeto dbt utilizando o assistente de inicialização.
+👉 **[Ir para Inicialização e Configuração do dbt](docs/dbt_setup.md)**
+
+---
+
 ## 🚀 Próximos Passos
-Com o Snowflake populado e o ambiente local Python (uv) pronto com o dbt instalado, o próximo passo consiste em inicializar o projeto dbt (`dbt init`), configurar os perfis de conexão com a nossa conta do Snowflake (arquivo `profiles.yml`) e iniciar a criação dos modelos analíticos!
+Com o projeto criado e conectado ao Snowflake, a próxima etapa é criar as nossas primeiras *models* para começar o processo de modelagem e transformação dos dados do Ethereum!
